@@ -1,7 +1,7 @@
 import express from "express";
 
-import http from "http";
-import path from "path";
+import http from "node:http";
+import path from "node:path";
 import { Server } from "socket.io";
 
 // servidor para as rotas
