@@ -1,4 +1,4 @@
-const socket = io("localhost://3000");
+const socket = io("http://localhost:3000");
 
 const urlSearch = new URLSearchParams(window.location.search);
 const username = urlSearch.get("username");
